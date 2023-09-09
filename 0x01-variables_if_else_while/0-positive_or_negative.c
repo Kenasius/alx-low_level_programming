@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Determines if a number is positive, negative or zero.
+ * main - This will decide if a figure is positive, negative or null.
  *
- * Return: Always 0 (Success)
+ * Return: Always return 0 on success
  */
 int main(void)
 {
