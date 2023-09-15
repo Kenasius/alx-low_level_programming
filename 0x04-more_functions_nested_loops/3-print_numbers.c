@@ -15,19 +15,3 @@ void print_numbers(void)
 	}
 	_putchar('\n');
 }
-
-
-3-main.c
-#include "main.h"
-
-/**
- * main - to check the code
- *
- * Return: Always returns 0
- */
-
-int main(void)
-{
-    print_numbers();
-    return (0);
-}

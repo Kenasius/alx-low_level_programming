@@ -27,21 +27,3 @@ void print_diagonal(int n)
 		}
 	}
 }
-
-
-7-main.c
-#include "main.h"
-
-/**
- * main - to check the code
- *
- * Return: Returns 0 always
- */
-int main(void)
-{
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
-    return (0);
-}

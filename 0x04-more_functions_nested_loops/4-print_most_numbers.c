@@ -17,18 +17,3 @@ void print_most_numbers(void)
 	}
 	_putchar('\n');
 }
-
-
-4-main.c
-#include "main.h"
-
-/**
- * main - to check the code
- *
- * Return: Returns 0 always
- */
-int main(void)
-{
-    print_most_numbers();
-    return (0);
-}
