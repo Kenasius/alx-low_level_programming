@@ -14,24 +14,3 @@ int _isdigit(int c)
 	else
 		return (0);
 }
-
-
-1-main.c
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - to check the code
- *
- * Return: Always returns 0
- */
-int main(void)
-{
-    char c;
-
-    c = '0';
-    printf("%c: %d\n", c, _isdigit(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
-    return (0);
-}
