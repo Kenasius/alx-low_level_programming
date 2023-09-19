@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * puts2 - function should print only one character out of two
- * starting with the first one
- * @str: input
- * Return: print
+ * print_rev - Prints a string in reverse order.
+ *
+ * @s: The string to be printed in reverse.
+ *
+ * Return: None (void).
  */
 void puts2(char *str)
 {
