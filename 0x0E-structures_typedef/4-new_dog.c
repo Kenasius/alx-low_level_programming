@@ -2,51 +2,10 @@
 #include "dog.h"
 
 /**
- * _strlen - Returns the length of a string.
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
  *
- * @s: The string to evaluate.
- *
- * Returns: The length of the string.
- */
-int _strlen(char *s)
-{
-	int i = 0;
-	while (s[i] != '\0') {
-	i++;
-  }
-  return i;
-}
-
-/**
- * *_strcpy - Copies a string to a buffer.
- *
- * Copies the string pointed to by `src`,
- * including the terminating null byte (`\0`),
- * to the buffer pointed to by `dest`.
- *
- * @dest: The buffer to copy the string to.
- * @src: The string to be copied.
- *
- * Returns: A pointer to the `dest` buffer.
- */
-char *_strcpy(char *dest, char *src)
-{
-  int len = _strlen(src);
-  for (int i = 0; i < len; i++) {
-    dest[i] = src[i];
-  }
-  dest[len] = '\0';
-  return dest;
-}
-
-/**
- * new_dog - Creates a new dog.
- *
- * @name: The name of the dog.
- * @age: The age of the dog.
- * @owner: The owner of the dog.
- *
- * Returns: A pointer to the new dog, or `NULL` on failure.
+ * Return: length of the string
  */
 int _strlen(char *s)
 {
@@ -129,4 +88,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->age = age;
 
 	return (dog);
+}
+
 }
