@@ -2,11 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - prints its own opcodes
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - Prints the opcodes for its own executable code.
  *
- * Return: Always 0 (Success)
+ * @argc: The number of command-line arguments.
+ * @argv: An array of pointers to the command-line arguments.
+ *
+ * Returns: Always 0 on success.
  */
 int main(int argc, char *argv[])
 {
